@@ -3,52 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orientações para prova</title>
+    <title>meu site</title>
 </head>
-<body>
-    <h1>Orientações para a Prova</h1>
-<ol>
-    <li>Visualize a imagem fornecida e desenvolva o código HTML correspondente.</li>
-    <li>Crie um novo arquivo nomeado como "SeuNome_Sobrenome.html".</li>
-    <li>Abaixo do campo <strong>Nome</strong>, insira seu nome completo.</li>
-    <li>Abaixo do campo <strong>Nome da Mãe</strong>, insira o nome completo de sua mãe.</li>
-    <li>Abaixo do campo <strong>Telefone</strong>, insira o seu número de celular.</li>
-    <li>Configure o botão "Enviar" para que o formulário seja enviado para o arquivo "melhores.php".</li>
-    <li>Orientações</li>
-    <ol>
-        <li>Capítulo 1, Seção III letra c - Challenger 350: ao passar o mouse dever aparecer "<strong>Bombardier</strong>".</li>
-        <li>No final do documento colocar a frase "Nunca desista!" de forma escrita contrária</li>
-    </ol>
-    <li>Após a finalização da prova</li>
-    <ol>
-        <li>Subir para o seu GitHub.
-            <a href="Passo-a-Passo-Github_page-0001.jpg" target="_blank">Visualizar Parte 1</a><br>
-            <a href="Passo-a-Passo-Github_page-0002.jpg" target="_blank">Visualizar Parte 2</a><br>
-            <a href="Passo-a-Passo-Github_page-0003.jpg" target="_blank">Visualizar Parte 3</a>
-        </li>
-        <li>Enviar para Sala Virtual.
-            <a href="Sala-Virtual-Prova-HTML.jpg" target="_blank">Visualizar Sala Virtual</a>
-        </li>
-    </ol>
-        <img src="prova-html.jpg" alt="Imagem da prova">
-    </ol>
+<body> 
 
-    <ol>
-        <li>dasda</li>
-        <ol>
-            <li>das</li>
-            <li>dasd</li>
-            <li>dadsa</li>
-            <ol>dasdasda
-                <li>dasdasd</li>
-                
-                
 
-            </ol>
-            
+<h1><mark style="background-color: red;"> Prova HTML 5 Turma O2</mark></h1>
+<h3><mark style="background-color: blue;"> Formulário</mark></h3>
+   
+<form action="melhores.php" method="post">
+
+    <label for="nome"><strong>Nome:</strong></label>
+    <br>
+    <input type="text" id="nome" name="nome" required>
+    <br>
+    <small><em>ex: Nome completo do aluno</em></small>
+    <br><br>
+
+    <label for="nomeM"><strong>Nome da Mãe</strong></label>
+    <br>
+    <input type="nomeM" id="nomeM" name="nomeM" required>
+    <br>
+    <small><em>ex: Nome completo da mãe do aluno</em></small>
+    <br><br>
+
+    <label for="telefone"><strong>Telefone</strong></label>
+    <br>
+    <input type="tel" id="telefone" name="telefone" required>
+    <br>
+    <small><em>ex: (61) 9XXXX-XXXX</em></small>
+    <br><br>
+
+    <input type="submit" value="Enviar">
+
+    <h1> <mark style="background-color: blue"> Índice HTML5</mark></h1>
+
+    <ol type="1">
+    <li><STRong>Capitulo <ins>Os melhores</ins></STRong></li>
+        <ol type="I" >
+            <li>Seção <SUp>I</SUp></li>
+                <ol type="A">
+                    <li>Subseção Carros</li>
+                        <ol type="a">
+                            <li><del>Rolls Royce</del> (indisponível)</li>
+                            <li>Bugatti</li>
+                            <li>Ferrari</li>
+                        </ol>
+                </ol>
+            <li>Seção <sup>II</sup></li>
+                <ol type="A">
+                    <li>Subseção "Motos"</li>
+                        <ol type="a">
+                            <li>Ducati Diavel 1260 S</li>
+                            <li>BMW K 1600 Bagger</li>
+                            <li>Harley-Davidson</li>
+                        </ol>
+                </ol>
+            <li>Seção <sup>III</sup></li>
+                <ol type="A">
+                    <li>Subseção Jatinhos</li>
+                        <ol type="a">
+                            <li>Dassault<sub>2</sub></li>
+                            <li>Pilatus PC-24</li>
+                            <li><abbr title="Bombardier">Challenger 350</abbr></li>
+                            <small><strong>Obs: title é Bombardier</strong></small>
+                        </ol>   
+                </ol>
         </ol>
+    <blockquote cite="https://books.google.com">
+        "O sucesso é alcançado com perseverança e dedicação!"
+    </blockquote>
+    <q>Respeito e cordialidade são essenciais</q>
+       
     </ol>
+    <p> <bdo dir="rtl">Nunca Desista!</bdo></p>
 
+</form>
 
 </body>
 </html>
